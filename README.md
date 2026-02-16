@@ -1,4 +1,4 @@
-﻿# Yashwini Shetty - Professional CV Website
+# Yashwini Shetty - Professional CV Website
 
 A modern, responsive personal CV website for Yashwini Shetty, Senior Automation Test Engineer.
 
@@ -28,49 +28,43 @@ A modern, responsive personal CV website for Yashwini Shetty, Senior Automation 
 - **Python 3.8 or higher**
 
   Check your version:
-
-  \\\ash
+```bash
   python --version
-  \\\
+  ```
 
   or
 
-  \\\ash
+  ```bash
   python3 --version
-  \\\
-
+  ```
 ### Install Steps
 
-1. **Open a terminal** in the project folder (\yashwini_website\).
+1. **Open a terminal** in the project folder (yashwini_website).
 
 2. **Optional but recommended: use a virtual environment**
-
-   \\\ash
+```bash
    python -m venv venv
-   \\\
+   ```
 
    - **Windows:**
 
-     \\\ash
+   ```bash
      venv\Scripts\activate
-     \\\
+     ```
 
    - **macOS/Linux:**
 
-     \\\ash
+   ```bash
      source venv/bin/activate
-     \\\
-
-3. **Install dependencies from \equirements.txt\**
-
-   \\\ash
+     ```
+3. **Install dependencies from requirements.txt**
+```bash
    pip install -r requirements.txt
-   \\\
+   ```
 
    This installs:
-
-   - \Flask==3.0.0\
-   - \Werkzeug==3.0.1\
+   - Flask==3.0.0
+   - Werkzeug==3.0.1
 
 ---
 
@@ -79,20 +73,18 @@ A modern, responsive personal CV website for Yashwini Shetty, Senior Automation 
 ### Option 1: Command line (any OS)
 
 From the project folder, with dependencies already installed:
-
-\\\ash
+```bash
 python app.py
-\\\
+```
 
 The app will start and print something like:
-
-\\\	ext
+```text
 * Running on http://0.0.0.0:5001
-\\\
+```
 
 ### Option 2: Windows batch file
 
-1. Double-click **\start.bat\** in the project folder.
+1. Double-click **start.bat** in the project folder.
 2. It will install dependencies (if needed) and then start the server.
 3. When you see "Starting Flask server...", the app is running.
 
@@ -106,18 +98,16 @@ To stop the server, press **Ctrl+C** in the terminal (or close the terminal wind
 ---
 
 ## Project Structure
-
-\\\	ext
+```text
 yashwini_website/
 |-- app.py              # Flask application and CV data
 |-- requirements.txt    # Python dependencies
 |-- start.bat           # Windows: install deps and run app
 |-- static/             # Static assets (CSS, JS, images)
 |-- templates/
-|   \-- index.html      # Main HTML template
-\-- README.md           # This file
-\\\
-
+|   |-- index.html      # Main HTML template
+|-- README.md           # This file
+```
 ---
 
 ## Features
@@ -144,7 +134,7 @@ yashwini_website/
 
 ## Customization
 
-To change CV content, edit the \cv_data\ dictionary in **\pp.py\** (name, title, contact, experience, skills, education, etc.).
+To change CV content, edit the cv_data dictionary in **app.py** (name, title, contact, experience, skills, education, etc.).
 
 ---
 
